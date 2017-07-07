@@ -267,20 +267,50 @@ a.img:hover{
 #resume h3{
   font-family: Megrim;
   color: yellow;
-  background-color: transparent;
+
   position: relative;
   top: -20px;
 }
 
+
+
 #resume a{
   font-family: Wire One;
-  font-size: 18px;
+  font-size: 32px;
   background-color: transparent;
   position: relative;
   top:-30px;
   color:yellow;
+  font-weight: bold;
 }
 
+.topresbox{
+  background-color: transparent;
+}
+.topresbox h3{
+  background-color: black;
+  margin-bottom: 0px;
+}
+
+
+.skillsbox{
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.skillsbox p{
+    background-color: yellow;
+    color: black;
+    padding: 10px 40px;
+    font-weight: bold;
+    font-family: Lato;
+    margin: 5px 10px;
+    font-size: 18px;
+  }
 
 .rescontent{
   display: flex;
@@ -299,12 +329,18 @@ a.img:hover{
 
 }
 
+.subresbox h4{
+  display: flex;
+  width: 370px;
+}
+
 .subresbox p{
   padding: 10px 40px;
   font-weight: bold;
   background-color: rgba(255, 255, 0, .8);
   color: black;
   font-family: Lato;
+  font-size: 18px;
 }
 
 #contact{
