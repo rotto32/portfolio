@@ -40,7 +40,7 @@ header{
   font-family: Megrim;
   font-size: 62px;
   padding-top: 63px;
-  background-image: url('https://static.pexels.com/photos/30193/pexels-photo-30193.jpg');
+  background-image: url('../Images/topcover.jpg');
   background-size: cover;
   background-position: center;
   color: yellow;
@@ -188,7 +188,7 @@ nav a{
   padding: 0 100px;
   padding-top: 100px;
 
-  background-image: url('https://static.pexels.com/photos/407124/pexels-photo-407124.jpeg');
+  background-image: url('../Images/resumecover.jpeg');
   background-position: top;
 
 }
@@ -251,7 +251,7 @@ a.img:hover{
   justify-content: space-between;
   flex-direction: column;
   padding: 100px 70px;
-  background-image: url('https://static.pexels.com/photos/45222/forest-fog-nature-winter-45222.jpeg');
+  background-image: url('../Images/bottomcover.jpeg');
   background-position: center;
 
 }
